@@ -1,0 +1,85 @@
+body{
+background-color: white;
+margin: auto;
+width: 90%;
+max-width: 1280px;
+}
+.link{
+float:right;
+margin: 5px 10px;
+font-family: "Khand";
+text-decoration: none;
+color: black;
+-moz-transition: all .2s ease-in;
+-o-transition: all .2s ease-in;
+-webkit-transition: all .2s ease-in;
+transition: all .2s ease-in;
+}
+.link:hover{
+color:grey;
+}
+.header h2{
+clear:both;
+font-family: "Ubuntu";
+font-size: 250%;
+text-align: center;
+border-bottom-color: grey;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+padding-bottom: 15px;
+margin-bottom: 0px;
+letter-spacing: 4px;
+}
+.header a{
+color:black;
+text-decoration: none;
+}
+.header p{
+text-align: center;
+font-size: 100%;
+font-family: "Khand"
+}
+.thumbnail h3, p{
+margin: 8px 4px 8px 4px;
+}
+.captiontop{
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-bottom-color: #DDDDDD;
+}
+.captionbottom{
+border-top-style: solid;
+border-top-width: 1px;
+border-top-color: #DDDDDD;
+padding: 8px 4px 0px 4px;
+}
+.captionbottom p{
+float:left;
+}
+.captionbottom a{
+float:right;
+}
+.footer p{
+
+text-align: center;
+font-family: "Khand";
+}
+.footer{
+border-top-style: solid;
+border-top-width: 1px;
+border-top-color: grey;
+}
+.jumbotron{
+	background-color:white;
+	text-align: center;
+	font-family:"Khand";
+}
+.btnlogin{
+margin-bottom: 100px;
+}
+.paging li {
+    display:inline-block;
+}
+.paging {
+    text-align:center;
+}
